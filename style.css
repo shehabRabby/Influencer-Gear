@@ -99,6 +99,38 @@ nav{
     max-width: 505px;
 }
 
+/* Companes names */
+
+.company{
+    max-width: 80%;
+    margin:70px auto;
+    padding: 30px 62px;
+}
+
+.gradient-line {
+  height: 1px;
+  background: linear-gradient(to right, transparent, #C0CCDA, transparent);
+  margin: 20px 0; /* optional spacing */
+}
+
+.companies-continer{
+    display: grid;
+    gap: 61px;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+
+/* popular section */
+
+
+
+
+
+
+
 
 
 
@@ -153,6 +185,10 @@ nav{
     font-weight: 400;
 }
 
+.companies-continer{
+    grid-template-columns: repeat(2, 1fr);
+}
+
     
 }
 
@@ -196,6 +232,10 @@ nav{
     font-weight: 400;
 }
 
+.companies-continer{
+    grid-template-columns: repeat(3, 1fr);
+}
+
 }
 
 
@@ -204,11 +244,17 @@ nav{
 
 
 /* large device */
-@media screen and (max-width:1200px) {
+@media screen  and (min-width:993px) and (max-width:1250px) {
     nav{
     flex-direction: column;
     gap: 30px;
 }
+.hero-items{
+    margin-top: 100px;
+}
 
+.companies-continer{
+    grid-template-columns: repeat(5, 1fr);
+}
 
 }
