@@ -25,9 +25,27 @@
     padding: 10px 24px;
     border-radius: 41px;
     border: none;
+    cursor: pointer;
 }
+
+.common-btn:hover{
+    background-color: #9ae50e;
+    transition: 1s;
+    box-shadow: 5px 5px 5px #18250180;
+    color: black;
+}
+
+.company-hover:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #69035480;
+    transition: 1s;
+    rotate: 2deg;
+}
+
+
 .right-arrow{
     margin-left: 10px;
+   
 }
 
 /* Nav section */
