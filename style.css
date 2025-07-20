@@ -16,23 +16,6 @@
     font-family: "Manrope", sans-serif;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .off{
     visibility: hidden;
 }
@@ -240,6 +223,7 @@ nav{
     max-width: 80%;
 }
 .seemore{
+    max-width: 90%;
     margin-top: 30px;
     text-align: end;
 }
@@ -385,7 +369,7 @@ nav{
 }
 
 .seemore{
-    text-align: start;
+    text-align: center;
 }
 
 
@@ -462,7 +446,7 @@ nav{
     grid-template-columns: repeat(2, 1fr);
 }
 .seemore{
-    text-align: start;
+    text-align: center;
 }
 
 
